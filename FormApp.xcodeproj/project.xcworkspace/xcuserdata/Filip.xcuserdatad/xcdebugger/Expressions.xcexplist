@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "FormViewController.pickerView(_:didSelectRow:inComponent:):FormViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pickerView.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SummaryViewController.backClicked(_:):SummaryViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newInsurance">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FormViewController.saveInsurance(textField:):FormViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.superview!.superview">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FormViewController.viewDidLayoutSubviews():FormViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.topView.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FormViewController.saveInsurances():FormViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC36770C23F8B97200FA3E74 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36770B23F8B97200FA3E74 /* SummaryView.swift */; };
+		DC36770E23F8BA6E00FA3E74 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36770D23F8BA6E00FA3E74 /* SummaryViewController.swift */; };
+		DC36771023F8DBAC00FA3E74 /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36770F23F8DBAC00FA3E74 /* FormCell.swift */; };
+		DC5AA4EA23F7C85A000646D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA4E923F7C85A000646D1 /* AppDelegate.swift */; };
+		DC5AA4F123F7C85C000646D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5AA4F023F7C85C000646D1 /* Assets.xcassets */; };
+		DC5AA4F423F7C85C000646D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5AA4F223F7C85C000646D1 /* LaunchScreen.storyboard */; };
+		DC5AA50023F7D152000646D1 /* InsuranceInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA4FF23F7D152000646D1 /* InsuranceInputView.swift */; };
+		DC5AA50523F7D97F000646D1 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA50423F7D97F000646D1 /* FormViewController.swift */; };
+		DC5AA50723F7DB7C000646D1 /* InsuranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA50623F7DB7C000646D1 /* InsuranceView.swift */; };
+		DC5AA52723F7E848000646D1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA52623F7E848000646D1 /* UIColorExtension.swift */; };
+		DC5AA52923F7EE11000646D1 /* CurrentInsuranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA52823F7EE11000646D1 /* CurrentInsuranceView.swift */; };
+		DC5AA52B23F7EEAA000646D1 /* InsuranceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA52A23F7EEAA000646D1 /* InsuranceInfoView.swift */; };
+		DC5AA52E23F7F810000646D1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA52D23F7F810000646D1 /* View.swift */; };
+		DC5AA53023F8022C000646D1 /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AA52F23F8022C000646D1 /* NavigationButtonsView.swift */; };
+		DC5F3E4023F815E10046FBEE /* AddInsuranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F3E3F23F815E10046FBEE /* AddInsuranceView.swift */; };
+		DC5F3E4423F821140046FBEE /* InsuranceInfoInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F3E4323F821140046FBEE /* InsuranceInfoInputView.swift */; };
+		DC5F3E4723F829310046FBEE /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F3E4623F829310046FBEE /* Insurance.swift */; };
+		DC5F3E4923F829CC0046FBEE /* NewInsurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F3E4823F829CC0046FBEE /* NewInsurance.swift */; };
+		DC5F3E4B23F8335C0046FBEE /* InsuranceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F3E4A23F8335C0046FBEE /* InsuranceProvider.swift */; };
+		DC5F3E4D23F8527F0046FBEE /* InsurancePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F3E4C23F8527F0046FBEE /* InsurancePickerView.swift */; };
+		DC5F3E4F23F866950046FBEE /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F3E4E23F866950046FBEE /* FormView.swift */; };
+		DC5F3E5723F88DA20046FBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5F3E5623F88DA20046FBEE /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC36770B23F8B97200FA3E74 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		DC36770D23F8BA6E00FA3E74 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		DC36770F23F8DBAC00FA3E74 /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		DC5AA4E623F7C85A000646D1 /* FormApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5AA4E923F7C85A000646D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC5AA4F023F7C85C000646D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5AA4F323F7C85C000646D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC5AA4F523F7C85C000646D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5AA4FF23F7D152000646D1 /* InsuranceInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceInputView.swift; sourceTree = "<group>"; };
+		DC5AA50423F7D97F000646D1 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		DC5AA50623F7DB7C000646D1 /* InsuranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceView.swift; sourceTree = "<group>"; };
+		DC5AA52623F7E848000646D1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DC5AA52823F7EE11000646D1 /* CurrentInsuranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentInsuranceView.swift; sourceTree = "<group>"; };
+		DC5AA52A23F7EEAA000646D1 /* InsuranceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceInfoView.swift; sourceTree = "<group>"; };
+		DC5AA52D23F7F810000646D1 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		DC5AA52F23F8022C000646D1 /* NavigationButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsView.swift; sourceTree = "<group>"; };
+		DC5F3E3F23F815E10046FBEE /* AddInsuranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInsuranceView.swift; sourceTree = "<group>"; };
+		DC5F3E4323F821140046FBEE /* InsuranceInfoInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceInfoInputView.swift; sourceTree = "<group>"; };
+		DC5F3E4623F829310046FBEE /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
+		DC5F3E4823F829CC0046FBEE /* NewInsurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInsurance.swift; sourceTree = "<group>"; };
+		DC5F3E4A23F8335C0046FBEE /* InsuranceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceProvider.swift; sourceTree = "<group>"; };
+		DC5F3E4C23F8527F0046FBEE /* InsurancePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePickerView.swift; sourceTree = "<group>"; };
+		DC5F3E4E23F866950046FBEE /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		DC5F3E5623F88DA20046FBEE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5AA4E323F7C859000646D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC36770923F8B93E00FA3E74 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				DC36770F23F8DBAC00FA3E74 /* FormCell.swift */,
+				DC5F3E4E23F866950046FBEE /* FormView.swift */,
+				DC5AA50423F7D97F000646D1 /* FormViewController.swift */,
+			);
+			path = FormView;
+			sourceTree = "<group>";
+		};
+		DC36770A23F8B94D00FA3E74 /* SummaryView */ = {
+			isa = PBXGroup;
+			children = (
+				DC36770B23F8B97200FA3E74 /* SummaryView.swift */,
+				DC36770D23F8BA6E00FA3E74 /* SummaryViewController.swift */,
+			);
+			path = SummaryView;
+			sourceTree = "<group>";
+		};
+		DC5AA4DD23F7C859000646D1 = {
+			isa = PBXGroup;
+			children = (
+				DC5AA4E823F7C85A000646D1 /* FormApp */,
+				DC5AA4E723F7C85A000646D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5AA4E723F7C85A000646D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5AA4E623F7C85A000646D1 /* FormApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5AA4E823F7C85A000646D1 /* FormApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC5AA52C23F7F7FF000646D1 /* UIKit */,
+				DC5AA50123F7D69C000646D1 /* Models */,
+				DC5AA4FE23F7D140000646D1 /* Views */,
+				DC5AA4FB23F7CD12000646D1 /* Screens */,
+				DC5AA4E923F7C85A000646D1 /* AppDelegate.swift */,
+				DC5F3E5623F88DA20046FBEE /* Main.storyboard */,
+				DC5AA4F023F7C85C000646D1 /* Assets.xcassets */,
+				DC5AA4F223F7C85C000646D1 /* LaunchScreen.storyboard */,
+				DC5AA4F523F7C85C000646D1 /* Info.plist */,
+			);
+			path = FormApp;
+			sourceTree = "<group>";
+		};
+		DC5AA4FB23F7CD12000646D1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DC36770A23F8B94D00FA3E74 /* SummaryView */,
+				DC36770923F8B93E00FA3E74 /* FormView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DC5AA4FE23F7D140000646D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC5AA4FF23F7D152000646D1 /* InsuranceInputView.swift */,
+				DC5F3E4C23F8527F0046FBEE /* InsurancePickerView.swift */,
+				DC5AA50623F7DB7C000646D1 /* InsuranceView.swift */,
+				DC5F3E4323F821140046FBEE /* InsuranceInfoInputView.swift */,
+				DC5AA52A23F7EEAA000646D1 /* InsuranceInfoView.swift */,
+				DC5AA52823F7EE11000646D1 /* CurrentInsuranceView.swift */,
+				DC5F3E3F23F815E10046FBEE /* AddInsuranceView.swift */,
+				DC5AA52F23F8022C000646D1 /* NavigationButtonsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC5AA50123F7D69C000646D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F3E4623F829310046FBEE /* Insurance.swift */,
+				DC5F3E4823F829CC0046FBEE /* NewInsurance.swift */,
+				DC5F3E4A23F8335C0046FBEE /* InsuranceProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC5AA52C23F7F7FF000646D1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DC5AA52623F7E848000646D1 /* UIColorExtension.swift */,
+				DC5AA52D23F7F810000646D1 /* View.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5AA4E523F7C859000646D1 /* FormApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5AA4F823F7C85C000646D1 /* Build configuration list for PBXNativeTarget "FormApp" */;
+			buildPhases = (
+				DC5AA4E223F7C859000646D1 /* Sources */,
+				DC5AA4E323F7C859000646D1 /* Frameworks */,
+				DC5AA4E423F7C859000646D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormApp;
+			productName = FormApp;
+			productReference = DC5AA4E623F7C85A000646D1 /* FormApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5AA4DE23F7C859000646D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Filip;
+				TargetAttributes = {
+					DC5AA4E523F7C859000646D1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DC5AA4E123F7C859000646D1 /* Build configuration list for PBXProject "FormApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5AA4DD23F7C859000646D1;
+			productRefGroup = DC5AA4E723F7C85A000646D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5AA4E523F7C859000646D1 /* FormApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5AA4E423F7C859000646D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5F3E5723F88DA20046FBEE /* Main.storyboard in Resources */,
+				DC5AA4F423F7C85C000646D1 /* LaunchScreen.storyboard in Resources */,
+				DC5AA4F123F7C85C000646D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5AA4E223F7C859000646D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5AA52E23F7F810000646D1 /* View.swift in Sources */,
+				DC36771023F8DBAC00FA3E74 /* FormCell.swift in Sources */,
+				DC5F3E4423F821140046FBEE /* InsuranceInfoInputView.swift in Sources */,
+				DC36770E23F8BA6E00FA3E74 /* SummaryViewController.swift in Sources */,
+				DC5F3E4923F829CC0046FBEE /* NewInsurance.swift in Sources */,
+				DC5F3E4723F829310046FBEE /* Insurance.swift in Sources */,
+				DC5AA50523F7D97F000646D1 /* FormViewController.swift in Sources */,
+				DC5AA52923F7EE11000646D1 /* CurrentInsuranceView.swift in Sources */,
+				DC5F3E4023F815E10046FBEE /* AddInsuranceView.swift in Sources */,
+				DC5F3E4B23F8335C0046FBEE /* InsuranceProvider.swift in Sources */,
+				DC5F3E4F23F866950046FBEE /* FormView.swift in Sources */,
+				DC5AA52B23F7EEAA000646D1 /* InsuranceInfoView.swift in Sources */,
+				DC5F3E4D23F8527F0046FBEE /* InsurancePickerView.swift in Sources */,
+				DC5AA53023F8022C000646D1 /* NavigationButtonsView.swift in Sources */,
+				DC5AA50723F7DB7C000646D1 /* InsuranceView.swift in Sources */,
+				DC5AA52723F7E848000646D1 /* UIColorExtension.swift in Sources */,
+				DC5AA50023F7D152000646D1 /* InsuranceInputView.swift in Sources */,
+				DC5AA4EA23F7C85A000646D1 /* AppDelegate.swift in Sources */,
+				DC36770C23F8B97200FA3E74 /* SummaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC5AA4F223F7C85C000646D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5AA4F323F7C85C000646D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC5AA4F623F7C85C000646D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC5AA4F723F7C85C000646D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC5AA4F923F7C85C000646D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WHWTVK343F;
+				INFOPLIST_FILE = FormApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.filiptrzaska.FormApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DC5AA4FA23F7C85C000646D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WHWTVK343F;
+				INFOPLIST_FILE = FormApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.filiptrzaska.FormApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5AA4E123F7C859000646D1 /* Build configuration list for PBXProject "FormApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5AA4F623F7C85C000646D1 /* Debug */,
+				DC5AA4F723F7C85C000646D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5AA4F823F7C85C000646D1 /* Build configuration list for PBXNativeTarget "FormApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5AA4F923F7C85C000646D1 /* Debug */,
+				DC5AA4FA23F7C85C000646D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5AA4DE23F7C859000646D1 /* Project object */;
+}
